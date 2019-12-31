@@ -1,0 +1,7 @@
+- hosts: client
+  become: yes
+  roles:
+    - role: vlipco_monitor
+    - role: vlipco_ovpn
+      vars:
+        type: client

@@ -1,0 +1,57 @@
+---
+# tasks file for vlipco_ovpn
+- name: Install OpenVPN package
+  apt:
+      name: "{{ openvpn_pkg }}"
+      state: present
+      update_cache: yes
+
+- name: Copy certificates and keys - server
+  copy:
+      src: "{{ item.src }}"
+      dest: /etc/openvpn
+  with_items:
+    - { src: ca.crt }
+    - { src: ca.key }
+    - { src: dh2048.pem }
+    - { src: server.key}
+    - { src: server.crt }
+  when: type == "server"
+
+- name: Deploy server.conf
+  template:
+      src: server.conf.j2
+      dest: /etc/openvpn/server.conf
+  when: type == "server"
+
+- name: Set IP Forwarding
+  sysctl:
+    name: net.ipv4.ip_forward
+    value: '1'
+    sysctl_set: yes
+    state: present
+    reload: yes
+  when: type == "server"
+
+- name: Copy certificates and keys - client
+  copy:
+      src: "{{ item.src }}"
+      dest: /etc/openvpn
+  with_items:
+    - { src: ca.crt }
+    - { src: client1.crt }
+    - { src: client1.key }
+  when: type == "client"
+
+- name: Deploy client.conf
+  template:
+      src: client.conf.j2
+      dest: /etc/openvpn/client.conf
+  when: type == "client"
+
+- name: Start openvpn service
+  systemd:
+      name: openvpn
+      state: started
+      enabled: yes
+      

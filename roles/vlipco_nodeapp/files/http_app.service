@@ -1,0 +1,14 @@
+[Unit]
+Description=Simple HTTP app
+Documentation=https://nowhere.com
+After=network.target
+
+[Service]
+Environment=NODE_PORT=3001
+Type=simple
+User=ubuntu
+ExecStart=/usr/bin/node /opt/http_app/app.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

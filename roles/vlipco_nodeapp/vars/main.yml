@@ -1,0 +1,5 @@
+---
+# vars file for vlipco_nodeapp
+systemd_file: http_app.service
+lib_dir: /lib/systemd/system/
+systemd_dir: /etc/systemd/system/multi-user.target.wants/

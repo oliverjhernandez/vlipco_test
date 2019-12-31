@@ -1,0 +1,96 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CO, ST=CUN, L=BOG, O=vlipco, CN=vlipco CA/name=EasyRSA/emailAddress=oliverjhernandez@gmail.com
+        Validity
+            Not Before: Dec 29 22:47:54 2019 GMT
+            Not After : Dec 26 22:47:54 2029 GMT
+        Subject: C=CO, ST=CUN, L=BOG, O=vlipco, CN=client1/name=EasyRSA/emailAddress=oliverjhernandez@gmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:ba:ad:b1:67:e6:9e:78:86:8b:7a:6d:28:48:fc:
+                    b4:8d:f0:8f:42:3d:03:e7:35:7e:53:97:21:60:e5:
+                    5a:37:a8:28:5a:75:bb:b2:d8:5b:bf:3c:5b:c9:03:
+                    dd:c7:bd:1e:cf:cd:c7:c3:9b:dd:4a:b2:57:11:90:
+                    71:ea:aa:27:a3:70:aa:0b:b5:7c:9f:f4:c6:11:e6:
+                    bf:b9:67:8d:c8:ff:11:a0:8d:0b:4e:bf:ee:4a:8b:
+                    95:b0:d0:c0:f0:02:35:91:7b:14:28:75:f2:ec:ad:
+                    70:71:77:a8:cb:f2:1d:ee:81:fa:85:28:db:12:75:
+                    3d:59:10:14:10:fb:64:1a:fe:a3:1c:fe:09:5a:ed:
+                    0c:7f:34:ca:79:0c:15:7b:88:25:37:68:35:ba:02:
+                    13:88:50:62:a4:96:03:04:6d:28:9f:48:4c:ce:16:
+                    fa:8c:79:6c:4e:1a:b7:30:0a:d6:b2:63:b7:67:47:
+                    48:af:ed:20:ea:2e:da:36:55:87:8c:af:fa:ff:37:
+                    d8:65:49:8a:e3:fd:a5:39:df:4f:0c:8a:89:2c:35:
+                    5e:3d:00:18:17:b8:6a:16:35:5c:47:27:0c:13:40:
+                    97:b6:02:c4:5e:53:f9:a2:e5:ca:8d:ee:cc:03:19:
+                    d3:4e:65:ab:e1:42:4e:35:e5:e9:7c:0c:24:12:83:
+                    12:a3
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                52:F6:8E:F8:CC:14:BE:69:D8:C9:C3:CE:33:75:BC:02:80:0B:35:D7
+            X509v3 Authority Key Identifier: 
+                keyid:4A:37:1F:C3:21:67:12:7B:DE:7D:7B:6E:66:41:ED:BF:0C:4D:BA:08
+                DirName:/C=CO/ST=CUN/L=BOG/O=vlipco/CN=vlipco CA/name=EasyRSA/emailAddress=oliverjhernandez@gmail.com
+                serial:38:8A:5F:A3:39:99:BC:D2:41:2D:55:15:71:16:DD:AC:33:36:2A:3E
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+            X509v3 Subject Alternative Name: 
+                DNS:client1
+    Signature Algorithm: sha256WithRSAEncryption
+         3f:94:bf:2c:10:3d:05:0f:f1:66:b7:1c:5f:48:1f:16:e2:76:
+         39:17:70:65:aa:e1:b8:67:78:80:4c:35:35:f6:25:83:b2:7f:
+         77:7a:00:a6:0a:bd:a4:d8:24:72:4c:98:87:f5:d3:03:ce:7b:
+         a2:a0:0f:04:1e:db:11:50:0d:95:ce:37:f9:67:8b:46:75:53:
+         77:6b:bd:97:e6:99:2f:77:f6:f4:7c:ba:15:61:b8:6a:80:16:
+         b7:a0:00:73:eb:14:f1:b6:51:86:87:1f:65:aa:02:ad:5e:33:
+         c7:8c:1b:7e:20:f0:42:46:a6:1d:10:48:df:15:9a:e3:18:9e:
+         be:db:4b:85:ee:54:71:63:64:8b:3d:ec:a5:86:cf:9d:bb:64:
+         4b:14:90:86:cd:6d:5d:aa:c6:60:4f:e5:35:b3:9b:5d:29:77:
+         3c:c6:34:a5:f7:90:fa:c1:3e:5f:04:2d:f8:b7:74:eb:22:87:
+         31:20:c9:b4:c6:e9:f6:f2:c4:f5:a3:2e:e6:71:6d:87:bd:ea:
+         b1:aa:0e:80:03:b3:6b:84:56:5a:f2:78:ef:37:1c:7b:78:1b:
+         f1:43:7c:00:f7:74:27:67:77:59:22:21:e6:c2:40:43:6e:55:
+         00:4e:5e:56:70:54:ee:cf:40:dc:4d:99:1c:1b:b5:10:bc:9d:
+         0d:f0:8c:7f
+-----BEGIN CERTIFICATE-----
+MIIE9DCCA9ygAwIBAgIBAjANBgkqhkiG9w0BAQsFADCBizELMAkGA1UEBhMCQ08x
+DDAKBgNVBAgTA0NVTjEMMAoGA1UEBxMDQk9HMQ8wDQYDVQQKEwZ2bGlwY28xEjAQ
+BgNVBAMTCXZsaXBjbyBDQTEQMA4GA1UEKRMHRWFzeVJTQTEpMCcGCSqGSIb3DQEJ
+ARYab2xpdmVyamhlcm5hbmRlekBnbWFpbC5jb20wHhcNMTkxMjI5MjI0NzU0WhcN
+MjkxMjI2MjI0NzU0WjCBiTELMAkGA1UEBhMCQ08xDDAKBgNVBAgTA0NVTjEMMAoG
+A1UEBxMDQk9HMQ8wDQYDVQQKEwZ2bGlwY28xEDAOBgNVBAMTB2NsaWVudDExEDAO
+BgNVBCkTB0Vhc3lSU0ExKTAnBgkqhkiG9w0BCQEWGm9saXZlcmpoZXJuYW5kZXpA
+Z21haWwuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuq2xZ+ae
+eIaLem0oSPy0jfCPQj0D5zV+U5chYOVaN6goWnW7sthbvzxbyQPdx70ez83Hw5vd
+SrJXEZBx6qono3CqC7V8n/TGEea/uWeNyP8RoI0LTr/uSouVsNDA8AI1kXsUKHXy
+7K1wcXeoy/Id7oH6hSjbEnU9WRAUEPtkGv6jHP4JWu0MfzTKeQwVe4glN2g1ugIT
+iFBipJYDBG0on0hMzhb6jHlsThq3MArWsmO3Z0dIr+0g6i7aNlWHjK/6/zfYZUmK
+4/2lOd9PDIqJLDVePQAYF7hqFjVcRycME0CXtgLEXlP5ouXKje7MAxnTTmWr4UJO
+NeXpfAwkEoMSowIDAQABo4IBYTCCAV0wCQYDVR0TBAIwADAtBglghkgBhvhCAQ0E
+IBYeRWFzeS1SU0EgR2VuZXJhdGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBRS9o74
+zBS+adjJw84zdbwCgAs11zCBywYDVR0jBIHDMIHAgBRKNx/DIWcSe959e25mQe2/
+DE26CKGBkaSBjjCBizELMAkGA1UEBhMCQ08xDDAKBgNVBAgTA0NVTjEMMAoGA1UE
+BxMDQk9HMQ8wDQYDVQQKEwZ2bGlwY28xEjAQBgNVBAMTCXZsaXBjbyBDQTEQMA4G
+A1UEKRMHRWFzeVJTQTEpMCcGCSqGSIb3DQEJARYab2xpdmVyamhlcm5hbmRlekBn
+bWFpbC5jb22CFDiKX6M5mbzSQS1VFXEW3awzNio+MBMGA1UdJQQMMAoGCCsGAQUF
+BwMCMAsGA1UdDwQEAwIHgDASBgNVHREECzAJggdjbGllbnQxMA0GCSqGSIb3DQEB
+CwUAA4IBAQA/lL8sED0FD/FmtxxfSB8W4nY5F3BlquG4Z3iATDU19iWDsn93egCm
+Cr2k2CRyTJiH9dMDznuioA8EHtsRUA2Vzjf5Z4tGdVN3a72X5pkvd/b0fLoVYbhq
+gBa3oABz6xTxtlGGhx9lqgKtXjPHjBt+IPBCRqYdEEjfFZrjGJ6+20uF7lRxY2SL
+Peylhs+du2RLFJCGzW1dqsZgT+U1s5tdKXc8xjSl95D6wT5fBC34t3TrIocxIMm0
+xun28sT1oy7mcW2Hveqxqg6AA7NrhFZa8njvNxx7eBvxQ3wA93QnZ3dZIiHmwkBD
+blUATl5WcFTuz0DcTZkcG7UQvJ0N8Ix/
+-----END CERTIFICATE-----

@@ -1,0 +1,9 @@
+---
+# defaults file for vlipco_monitor
+
+monitor_root: /home/ubuntu/monitor
+user: ubuntu
+host: 10.8.0.1
+port: 3001
+endpoint: /hello
+url: "http://{{ host }}:{{ port }}{{ endpoint }}"

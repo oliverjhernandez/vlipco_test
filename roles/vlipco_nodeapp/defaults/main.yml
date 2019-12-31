@@ -1,0 +1,5 @@
+---
+# defaults file for vlipco_nodeapp
+project_root_path: /opt 
+nodejs_version: 12
+deploy_app_dir: "{{ project_root_path }}"/http_app

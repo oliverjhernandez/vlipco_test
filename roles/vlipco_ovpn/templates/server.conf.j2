@@ -1,0 +1,16 @@
+tls-server
+dev tun
+ifconfig 10.8.0.1 10.8.0.2
+# secret vlipco.key
+proto udp
+ca {{ ca_file }}
+cert {{ server_cert_file }}
+key {{ server_key_file }}
+dh {{ server_dh_file }}
+persist-key
+persist-tun
+status {{ server_status_file }}
+verb 4
+user nobody
+cipher {{ cipher }}
+auth-nocache

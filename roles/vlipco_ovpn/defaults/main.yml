@@ -1,0 +1,15 @@
+---
+# defaults file for vlipco_ovpn
+type: server
+ca_file: "ca.crt"
+cipher: "AES-256-CBC"
+
+# Server defaults
+server_cert_file: "server.crt"
+server_key_file: "server.key"
+server_dh_file: "dh2048.pem"
+server_status_file: "openvpn.log"
+
+# Client defaults
+client_cert_file: "client1.crt"
+client_key_file: "client1.key"

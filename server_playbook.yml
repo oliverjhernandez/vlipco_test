@@ -1,0 +1,7 @@
+- hosts: server
+  become: yes
+  roles:
+    - role: vlipco_ovpn
+      vars:
+        type: server
+    - role: vlipco_nodeapp

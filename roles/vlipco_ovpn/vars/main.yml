@@ -1,0 +1,18 @@
+---
+# vars file for vlipco_ovpn
+#
+openvpn_pkg:
+    - openvpn
+    - easy-rsa
+
+server_files:
+    - ca.crt
+    - ca.key
+    - dh2048.pem
+    - server.key
+    - server.crt
+
+client_files:
+    - ca.crt
+    - client1.crt
+    - client1.key

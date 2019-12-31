@@ -1,0 +1,9 @@
+[server]
+ec2-34-192-28-78.compute-1.amazonaws.com
+[server:vars]
+ansible_ssh_private_key_file=~/Downloads/vlipco.pem
+
+[client]
+ec2-3-228-75-215.compute-1.amazonaws.com
+[client:vars]
+ansible_ssh_private_key_file=~/Downloads/vlipco.pem

@@ -1,0 +1,11 @@
+tls-client
+remote ec2-34-192-28-78.compute-1.amazonaws.com
+dev tun
+ifconfig 10.8.0.2 10.8.0.1
+# secret vlipco.key
+ca {{ ca_file }}
+cert {{ client_cert_file }}
+key {{ client_key_file }}
+remote-cert-tls server
+cipher {{ cipher }}
+auth-nocache
